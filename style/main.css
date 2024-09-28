@@ -74,11 +74,12 @@ main .items .item .faq-quest {
   cursor: pointer;
   transition: 0.2s all;
 }
-main .items .item .faq-quest:hover > h2 {
+main .items .item .faq-quest:hover > p {
   color: #ad28eb;
 }
-main .items .item .faq-quest h2 {
+main .items .item .faq-quest p {
   font-size: 1.188rem;
+  font-weight: 700;
   line-height: 1.5;
   color: hsl(292, 42%, 14%);
   transition: color 0.2s;
@@ -95,7 +96,7 @@ main .items .item .faq-quest .show_hide_btn {
 main .items .item .faq-quest .show_hide_btn.active {
   background-image: url(../assets/images/icon-minus.svg);
 }
-main .items .item p {
+main .items .item > p {
   line-height: 1.6;
   color: hsl(292, 16%, 49%);
   transition: max-height 0.2s linear;

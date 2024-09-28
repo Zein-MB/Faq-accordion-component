@@ -87,12 +87,13 @@ main {
         cursor: pointer;
         transition: 0.2s all;
 
-        &:hover > h2 {
+        &:hover > p {
           color: #ad28eb;
         }
 
-        h2 {
+        p {
           font-size: 1.188rem;
+          font-weight: 700;
           line-height: 1.5;
           color: $Dark-purple;
           transition: color 0.2s;
@@ -112,7 +113,7 @@ main {
           }
         }
       }
-      p {
+      &>p {
         line-height: 1.6;
         color: $Grayish-purple;
         transition: max-height 0.2s linear;
