@@ -74,10 +74,10 @@ main .items .item .faq-quest {
   cursor: pointer;
   transition: 0.2s all;
 }
-main .items .item .faq-quest:hover > p {
+main .items .item .faq-quest:hover > span:first-child {
   color: #ad28eb;
 }
-main .items .item .faq-quest p {
+main .items .item .faq-quest span:first-child {
   font-size: 1.188rem;
   font-weight: 700;
   line-height: 1.5;

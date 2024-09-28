@@ -87,11 +87,11 @@ main {
         cursor: pointer;
         transition: 0.2s all;
 
-        &:hover > p {
+        &:hover > span:first-child {
           color: #ad28eb;
         }
 
-        p {
+        span:first-child {
           font-size: 1.188rem;
           font-weight: 700;
           line-height: 1.5;
